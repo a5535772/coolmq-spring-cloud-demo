@@ -1,13 +1,13 @@
-# coolmq的Spring cloud案例
-已测试可用
-microservice-message-provider: 消息发送者
-microservice-message-provider: 消息接受者
-使用非常方便，大家看代码便知
-1 consumer中声明队列: BizQueueConfig.java
-2 consumer中声明消息接受者: BizMessageListener.java
-3 provider中发送消息: RabbitSender.send()即可
+# coolmq的Spring cloud案例  
+已测试可用  
+microservice-message-provider: 消息发送者  
+microservice-message-provider: 消息接受者  
+使用非常方便，大家看代码便知  
+1 consumer中声明队列: BizQueueConfig.java  
+2 consumer中声明消息接受者: BizMessageListener.java  
+3 provider中发送消息: RabbitSender.send()即可  
 
-rabbitmq,redis的配置文件均位于配置中心/resources/config-dev目录下
+rabbitmq,redis的配置文件均位于配置中心/resources/config-dev目录下  
 
 # 致谢
 
